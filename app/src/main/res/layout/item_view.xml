@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/item_icon"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:src="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/item_txtPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="200"
+        android:layout_alignBottom="@+id/item_icon"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_toEndOf="@+id/item_icon" />
+
+    <TextView
+        android:id="@+id/item_txtMake"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_icon"
+        android:textSize="20dp"
+        android:text="Make Shown Here"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#E1DCD3"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="First Name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Last Name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Age"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eAge"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bRegister"
+        android:textAllCaps="false"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0BB5FF"/>
+
+</LinearLayout>

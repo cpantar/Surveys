@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#E1DCD3"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/eEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bLogin"
+        android:textAllCaps="false"
+        android:text="Log In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#0BB5FF"/>
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="8pt"
+        android:textStyle="bold|italic"
+        />
+</LinearLayout>
